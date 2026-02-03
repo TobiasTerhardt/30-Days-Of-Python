@@ -1,1 +1,32 @@
-
+#Dies ist meine erste Python-Datei
+#Zuerst führe ich die Variable name ein
+name = "Tobias"
+alter = "37"
+gewicht = "84.5"
+print(name)
+print(f"Mein Name ist " + name + ". Ich bin " + alter + " Jahre alt und wiege " + gewicht + " kg.")
+#Ich habe gerad gemerkt, dass ich die Zahlenwerten, also alter und gewicht als string ausweisen muss und sonst einen Fehler bekomme
+print(name*3)
+#jetzt rechne ich mal ein bisschen
+x = 5
+y = 4
+print(x+y)  #hier addiere ich
+print(x-y)  #hier subtrahiere ich
+print(x*y)  #hier multipliziere ich
+print(x/y)  #hier dividiere ich
+print(x%y)  #hier schaue ich wie groß der Rest ist, der rauskommt wenn ich x durch y teile
+print(x//y) #mal gucken was hier rauskommt.
+print(type(x*y))
+print(type(x/y))
+discounter = "Aldi"
+print(len(discounter))
+y = discounter[0:4] #hier wird eine Variable definiert, die die ersten 4 Zeichen des variablen discounter beinhaltet
+print(y)
+print(type(y)) #die Variable y ist eine string, da die Variable discounter auch eine string ist
+abc = (1, 2, 3)
+print(abc)
+print(len(abc))
+print(abc[1]) #hier wird das 2. Element der Liste ausgewiesen
+print(type(abc)) #abc ist ein Tuple
+abc = 7             #hier wandle ich abc in ein int um
+print(type(abc))
